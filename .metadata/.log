@@ -2101,3 +2101,634 @@ org.osgi.framework.BundleException: Could not resolve module: org.zend.php.frame
 
 !ENTRY org.eclipse.equinox.app 0 0 2018-11-14 13:53:06.330
 !MESSAGE Product com.zend.php.ide could not be found.
+!SESSION 2018-11-14 18:26:46.433 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY com.zend.php 4 0 2018-11-14 18:26:47.768
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php [9]
+  Unresolved requirement: Require-Bundle: com.zend.php.core
+    -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.core [17]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.apigility.core 4 0 2018-11-14 18:26:47.770
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigility.core [10]
+  Unresolved requirement: Require-Bundle: org.zend.php.framework
+    -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.framework [499]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.apigility.ui 4 0 2018-11-14 18:26:47.772
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigility.ui [11]
+  Unresolved requirement: Require-Bundle: org.zend.php.common
+    -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.common [498]
+         Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ccm.core 4 0 2018-11-14 18:26:47.775
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.core [12]
+  Unresolved requirement: Require-Bundle: org.zend.php.common
+    -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.common [498]
+         Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ccm.ui 4 0 2018-11-14 18:26:47.778
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.ui [13]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.core 4 0 2018-11-14 18:26:47.781
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.core [17]
+  Unresolved requirement: Require-Bundle: org.zend.php.common
+    -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.common [498]
+         Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.datatools.core 4 0 2018-11-14 18:26:47.784
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datatools.core [18]
+  Unresolved requirement: Require-Bundle: com.zend.php.core
+    -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.core [17]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.datatools.ui 4 0 2018-11-14 18:26:47.787
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datatools.ui [19]
+  Unresolved requirement: Require-Bundle: com.zend.php.datatools.core
+    -> Bundle-SymbolicName: com.zend.php.datatools.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.datatools.core [18]
+         Unresolved requirement: Require-Bundle: com.zend.php.core
+           -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.core [17]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.debug.core 4 0 2018-11-14 18:26:47.789
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug.core [20]
+  Unresolved requirement: Require-Bundle: org.zend.php.common
+    -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.common [498]
+         Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.debug.ui 4 0 2018-11-14 18:26:47.792
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug.ui [23]
+  Unresolved requirement: Require-Bundle: com.zend.php.ui
+    -> Bundle-SymbolicName: com.zend.php.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ui [47]
+         Unresolved requirement: Require-Bundle: com.zend.php.core
+           -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.core [17]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.cvs.ui 4 0 2018-11-14 18:26:47.795
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.cvs.ui [28]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.git.ui 4 0 2018-11-14 18:26:47.798
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.git.ui [29]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.github.ui 4 0 2018-11-14 18:26:47.801
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.github.ui [30]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.git.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.git.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.git.ui [29]
+         Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+           -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.ide.ui [33]
+                Unresolved requirement: Require-Bundle: org.zend.php.framework
+                  -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.framework [499]
+                       Unresolved requirement: Require-Bundle: org.zend.php.common
+                         -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                            org.zend.php.common [498]
+                              Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.openshift.ui 4 0 2018-11-14 18:26:47.803
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.openshift.ui [31]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.svn.ui 4 0 2018-11-14 18:26:47.806
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.svn.ui [32]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ide.ui 4 0 2018-11-14 18:26:47.808
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.ui [33]
+  Unresolved requirement: Require-Bundle: org.zend.php.framework
+    -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.framework [499]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.phpunit 4 0 2018-11-14 18:26:47.812
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.phpunit [36]
+  Unresolved requirement: Require-Bundle: com.zend.php.ui
+    -> Bundle-SymbolicName: com.zend.php.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ui [47]
+         Unresolved requirement: Require-Bundle: com.zend.php.core
+           -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.core [17]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.profile.core 4 0 2018-11-14 18:26:47.814
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profile.core [37]
+  Unresolved requirement: Require-Bundle: com.zend.php.debug.core
+    -> Bundle-SymbolicName: com.zend.php.debug.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.debug.core [20]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.profile.ui 4 0 2018-11-14 18:26:47.816
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profile.ui [38]
+  Unresolved requirement: Require-Bundle: com.zend.php.profile.core
+    -> Bundle-SymbolicName: com.zend.php.profile.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.profile.core [37]
+         Unresolved requirement: Require-Bundle: com.zend.php.debug.core
+           -> Bundle-SymbolicName: com.zend.php.debug.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.debug.core [20]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.remoteproject.ui 4 0 2018-11-14 18:26:47.819
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.remoteproject.ui [42]
+  Unresolved requirement: Require-Bundle: com.zend.php.ide.ui
+    -> Bundle-SymbolicName: com.zend.php.ide.ui; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.ide.ui [33]
+         Unresolved requirement: Require-Bundle: org.zend.php.framework
+           -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.framework [499]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.semanticanalysis.core 4 0 2018-11-14 18:26:47.821
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.semanticanalysis.core [43]
+  Unresolved requirement: Require-Bundle: com.zend.php.core
+    -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.core [17]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.semanticanalysis.ui 4 0 2018-11-14 18:26:47.823
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.semanticanalysis.ui [44]
+  Unresolved requirement: Require-Bundle: com.zend.php.core
+    -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.core [17]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.ui 4 0 2018-11-14 18:26:47.825
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ui [47]
+  Unresolved requirement: Require-Bundle: com.zend.php.core
+    -> Bundle-SymbolicName: com.zend.php.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.core [17]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.zendserver.core 4 0 2018-11-14 18:26:47.827
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zendserver.core [48]
+  Unresolved requirement: Require-Bundle: com.zend.php.debug.core
+    -> Bundle-SymbolicName: com.zend.php.debug.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.debug.core [20]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.zend.php.zendserver.ui 4 0 2018-11-14 18:26:47.829
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zendserver.ui [49]
+  Unresolved requirement: Require-Bundle: com.zend.php.zendserver.core
+    -> Bundle-SymbolicName: com.zend.php.zendserver.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       com.zend.php.zendserver.core [48]
+         Unresolved requirement: Require-Bundle: com.zend.php.debug.core
+           -> Bundle-SymbolicName: com.zend.php.debug.core; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              com.zend.php.debug.core [20]
+                Unresolved requirement: Require-Bundle: org.zend.php.common
+                  -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+                     org.zend.php.common [498]
+                       Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.zend.php.common 4 0 2018-11-14 18:26:48.305
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.zend.php.common [498]
+  Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.zend.php.framework 4 0 2018-11-14 18:26:48.307
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.zend.php.framework [499]
+  Unresolved requirement: Require-Bundle: org.zend.php.common
+    -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.common [498]
+         Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.zend.php.framework.ui 4 0 2018-11-14 18:26:48.311
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.zend.php.framework.ui [501]
+  Unresolved requirement: Require-Bundle: org.zend.php.framework
+    -> Bundle-SymbolicName: org.zend.php.framework; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+       org.zend.php.framework [499]
+         Unresolved requirement: Require-Bundle: org.zend.php.common
+           -> Bundle-SymbolicName: org.zend.php.common; bundle-version="12.5.1.v20150514-2003"; singleton:="true"
+              org.zend.php.common [498]
+                Unresolved requirement: Require-Bundle: com.zend.verifier
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.equinox.app 0 0 2018-11-14 18:26:48.567
+!MESSAGE Product com.zend.php.ide could not be found.
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2018-11-14 18:27:16.626
+!MESSAGE Address already in use: JVM_Bind
+!STACK 0
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:745)
