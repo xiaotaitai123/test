@@ -2101,7 +2101,11 @@ org.osgi.framework.BundleException: Could not resolve module: org.zend.php.frame
 
 !ENTRY org.eclipse.equinox.app 0 0 2018-11-14 13:53:06.330
 !MESSAGE Product com.zend.php.ide could not be found.
+<<<<<<< HEAD
+!SESSION 2018-11-14 18:25:19.115 -----------------------------------------------
+=======
 !SESSION 2018-11-14 18:26:46.433 -----------------------------------------------
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 eclipse.buildId=unknown
 java.version=1.8.0_40
 java.vendor=Oracle Corporation
@@ -2109,7 +2113,11 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
 Framework arguments:  -showlocation
 Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
 
+<<<<<<< HEAD
+!ENTRY com.zend.php 4 0 2018-11-14 18:25:21.623
+=======
 !ENTRY com.zend.php 4 0 2018-11-14 18:26:47.768
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php [9]
@@ -2130,7 +2138,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php [9]
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.apigility.core 4 0 2018-11-14 18:25:21.652
+=======
 !ENTRY com.zend.php.apigility.core 4 0 2018-11-14 18:26:47.770
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigility.core [10]
@@ -2151,7 +2163,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigi
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.apigility.ui 4 0 2018-11-14 18:25:21.653
+=======
 !ENTRY com.zend.php.apigility.ui 4 0 2018-11-14 18:26:47.772
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigility.ui [11]
@@ -2169,7 +2185,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.apigi
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ccm.core 4 0 2018-11-14 18:25:21.654
+=======
 !ENTRY com.zend.php.ccm.core 4 0 2018-11-14 18:26:47.775
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.core [12]
@@ -2187,7 +2207,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.c
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ccm.ui 4 0 2018-11-14 18:25:21.655
+=======
 !ENTRY com.zend.php.ccm.ui 4 0 2018-11-14 18:26:47.778
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.ui [13]
@@ -2211,7 +2235,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ccm.u
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.core 4 0 2018-11-14 18:25:21.656
+=======
 !ENTRY com.zend.php.core 4 0 2018-11-14 18:26:47.781
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.core [17]
@@ -2229,7 +2257,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.core 
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.datatools.core 4 0 2018-11-14 18:25:21.656
+=======
 !ENTRY com.zend.php.datatools.core 4 0 2018-11-14 18:26:47.784
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datatools.core [18]
@@ -2250,7 +2282,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datat
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.datatools.ui 4 0 2018-11-14 18:25:21.657
+=======
 !ENTRY com.zend.php.datatools.ui 4 0 2018-11-14 18:26:47.787
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datatools.ui [19]
@@ -2274,7 +2310,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.datat
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.debug.core 4 0 2018-11-14 18:25:21.657
+=======
 !ENTRY com.zend.php.debug.core 4 0 2018-11-14 18:26:47.789
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug.core [20]
@@ -2292,7 +2332,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.debug.ui 4 0 2018-11-14 18:25:21.658
+=======
 !ENTRY com.zend.php.debug.ui 4 0 2018-11-14 18:26:47.792
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug.ui [23]
@@ -2316,7 +2360,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.debug
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.cvs.ui 4 0 2018-11-14 18:25:21.658
+=======
 !ENTRY com.zend.php.ide.cvs.ui 4 0 2018-11-14 18:26:47.795
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.cvs.ui [28]
@@ -2340,7 +2388,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.c
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.git.ui 4 0 2018-11-14 18:25:21.659
+=======
 !ENTRY com.zend.php.ide.git.ui 4 0 2018-11-14 18:26:47.798
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.git.ui [29]
@@ -2364,7 +2416,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.g
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.github.ui 4 0 2018-11-14 18:25:21.660
+=======
 !ENTRY com.zend.php.ide.github.ui 4 0 2018-11-14 18:26:47.801
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.github.ui [30]
@@ -2391,7 +2447,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.g
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.openshift.ui 4 0 2018-11-14 18:25:21.660
+=======
 !ENTRY com.zend.php.ide.openshift.ui 4 0 2018-11-14 18:26:47.803
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.openshift.ui [31]
@@ -2415,7 +2475,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.o
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.svn.ui 4 0 2018-11-14 18:25:21.661
+=======
 !ENTRY com.zend.php.ide.svn.ui 4 0 2018-11-14 18:26:47.806
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.svn.ui [32]
@@ -2439,7 +2503,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.s
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ide.ui 4 0 2018-11-14 18:25:21.661
+=======
 !ENTRY com.zend.php.ide.ui 4 0 2018-11-14 18:26:47.808
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.ui [33]
@@ -2460,7 +2528,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ide.u
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.phpunit 4 0 2018-11-14 18:25:21.662
+=======
 !ENTRY com.zend.php.phpunit 4 0 2018-11-14 18:26:47.812
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.phpunit [36]
@@ -2484,7 +2556,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.phpun
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.profile.core 4 0 2018-11-14 18:25:21.663
+=======
 !ENTRY com.zend.php.profile.core 4 0 2018-11-14 18:26:47.814
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profile.core [37]
@@ -2505,7 +2581,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profi
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.profile.ui 4 0 2018-11-14 18:25:21.664
+=======
 !ENTRY com.zend.php.profile.ui 4 0 2018-11-14 18:26:47.816
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profile.ui [38]
@@ -2529,7 +2609,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.profi
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.remoteproject.ui 4 0 2018-11-14 18:25:21.664
+=======
 !ENTRY com.zend.php.remoteproject.ui 4 0 2018-11-14 18:26:47.819
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.remoteproject.ui [42]
@@ -2553,7 +2637,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.remot
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.semanticanalysis.core 4 0 2018-11-14 18:25:21.665
+=======
 !ENTRY com.zend.php.semanticanalysis.core 4 0 2018-11-14 18:26:47.821
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.semanticanalysis.core [43]
@@ -2574,7 +2662,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.seman
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.semanticanalysis.ui 4 0 2018-11-14 18:25:21.666
+=======
 !ENTRY com.zend.php.semanticanalysis.ui 4 0 2018-11-14 18:26:47.823
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.semanticanalysis.ui [44]
@@ -2595,7 +2687,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.seman
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.ui 4 0 2018-11-14 18:25:21.666
+=======
 !ENTRY com.zend.php.ui 4 0 2018-11-14 18:26:47.825
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ui [47]
@@ -2616,7 +2712,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.ui [4
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.zendserver.core 4 0 2018-11-14 18:25:21.667
+=======
 !ENTRY com.zend.php.zendserver.core 4 0 2018-11-14 18:26:47.827
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zendserver.core [48]
@@ -2637,7 +2737,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zends
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY com.zend.php.zendserver.ui 4 0 2018-11-14 18:25:21.669
+=======
 !ENTRY com.zend.php.zendserver.ui 4 0 2018-11-14 18:26:47.829
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zendserver.ui [49]
@@ -2661,7 +2765,11 @@ org.osgi.framework.BundleException: Could not resolve module: com.zend.php.zends
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY org.zend.php.common 4 0 2018-11-14 18:25:22.166
+=======
 !ENTRY org.zend.php.common 4 0 2018-11-14 18:26:48.305
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: org.zend.php.common [498]
@@ -2676,7 +2784,11 @@ org.osgi.framework.BundleException: Could not resolve module: org.zend.php.commo
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY org.zend.php.framework 4 0 2018-11-14 18:25:22.167
+=======
 !ENTRY org.zend.php.framework 4 0 2018-11-14 18:26:48.307
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: org.zend.php.framework [499]
@@ -2694,7 +2806,11 @@ org.osgi.framework.BundleException: Could not resolve module: org.zend.php.frame
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY org.zend.php.framework.ui 4 0 2018-11-14 18:25:22.167
+=======
 !ENTRY org.zend.php.framework.ui 4 0 2018-11-14 18:26:48.311
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
 !MESSAGE FrameworkEvent ERROR
 !STACK 0
 org.osgi.framework.BundleException: Could not resolve module: org.zend.php.framework.ui [501]
@@ -2715,6 +2831,10 @@ org.osgi.framework.BundleException: Could not resolve module: org.zend.php.frame
 	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
 	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.equinox.app 0 0 2018-11-14 18:25:22.925
+!MESSAGE Product com.zend.php.ide could not be found.
+=======
 !ENTRY org.eclipse.equinox.app 0 0 2018-11-14 18:26:48.567
 !MESSAGE Product com.zend.php.ide could not be found.
 
@@ -2732,3 +2852,4 @@ java.net.BindException: Address already in use: JVM_Bind
 	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
 	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
 	at java.lang.Thread.run(Thread.java:745)
+>>>>>>> 785066fb2963e4410d088f4d30df97c995088158
